@@ -1,0 +1,27 @@
+{
+  "name": "js-hiring-test",
+  "version": "1.0.0",
+  "description": "Frontend Hiring Test 1",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest",
+    "start": "node index.js"
+  },
+  "jest": {
+    "verbose": true,
+    "transform": {
+      "^.+\\.[t|j]sx?$": "babel-jest"
+    }
+  },
+  "author": "Rizky Alfiansyah",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.21.4",
+    "@babel/node": "^7.20.7",
+    "@babel/preset-env": "^7.21.4",
+    "@babel/register": "^7.21.0",
+    "babel-jest": "^29.5.0",
+    "jest": "^29.5.0"
+  }
+}
